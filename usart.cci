@@ -1,0 +1,11 @@
+VERSION:3 SOURCE_TIMESTAMP:428D719A
+NODE:I LEVEL:0 LINE:1 "main.h"
+NODE:M LEVEL:0 LINE:4 "RX_BUFFER_SIZE"
+NODE:V LEVEL:0 LINE:5 "rx_buffer -> RAM:????"
+NODE:V LEVEL:0 LINE:8 "rx_wr_index -> R5"
+NODE:V LEVEL:0 LINE:8 "rx_rd_index -> R4"
+NODE:V LEVEL:0 LINE:8 "rx_counter -> R7"
+NODE:V LEVEL:0 LINE:14 "rx_buffer_overflow -> R2.0"
+NODE:F LEVEL:0 LINE:16 "usart_rx_isr(void)"
+NODE:M LEVEL:0 LINE:41 "_ALTERNATE_GETCHAR_"
+NODE:F LEVEL:0 LINE:43 "getchar(void)"

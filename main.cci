@@ -1,0 +1,6 @@
+VERSION:3 SOURCE_TIMESTAMP:42A2AE72
+NODE:I LEVEL:0 LINE:1 "main.h"
+NODE:V LEVEL:0 LINE:2 "mode2 -> RAM:????"
+NODE:F LEVEL:0 LINE:4 "ext_int2_isr(void)"
+NODE:F LEVEL:0 LINE:14 "set_nguong(void)"
+NODE:F LEVEL:0 LINE:89 "main(void)"

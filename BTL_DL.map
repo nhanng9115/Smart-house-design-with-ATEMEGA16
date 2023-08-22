@@ -1,0 +1,59 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+rx_buffer                                                         0x0220       8
+__ds18b20_scratch_pad                                             0x0228       9
+str                                                               0x0231      15
+LCD_Buffer                                                        0x0240      15
+str1                                                              0x024F      12
+Temp1                                                             0x025B       2
+T                                                                 0x025D       2
+khoi                                                              0x025F       2
+anh_sang                                                          0x0261       2
+khoi1                                                             0x0263       2
+anh_sang1                                                         0x0265       2
+khoi_0_1                                                          0x0267       2
+khoi_0_2                                                          0x0269       2
+anh_sang_0_1                                                      0x026B       2
+anh_sang_0_2                                                      0x026D       2
+Temp_0                                                            0x026F       2
+cb_Temp                                                           0x0271       2
+cb_khoi_1                                                         0x0273       2
+cb_khoi_2                                                         0x0275       2
+cb_anh_sang_1                                                     0x0277       2
+cb_anh_sang_2                                                     0x0279       2
+khoi_ss_1                                                         0x027B       2
+khoi_ss_2                                                         0x027D       2
+anh_sang_ss_1                                                     0x027F       2
+anh_sang_ss_2                                                     0x0281       2
+Temp_ss                                                           0x0283       2
+mode1                                                             0x0285       2
+nguong_khoi_1                                                     0x0287       2
+nguong_khoi_2                                                     0x0289       2
+nguong_as_1                                                       0x028B       2
+nguong_as_2                                                       0x028D       2
+nguong_nhiet                                                      0x028F       2
+m                                                                 0x0291       2
+n                                                                 0x0293       2
+mode2                                                             0x0295       2
+_base_y                                                           0x0297       4
+_lcd_x                                                            0x029B       1
+_lcd_y                                                            0x029C       1
+_lcd_maxx                                                         0x029D       1
+_seed                                                             0x029E       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+rx_wr_index                                                       R5           1
+rx_rd_index                                                       R4           1
+rx_counter                                                        R7           1
+rx_buffer_overflow                                                R2.0      1bit
+Data                                                              R6           1
+str_adc                                                           R8,R9        2
+str_nguong                                                        R10,R11      2
+Temp                                                              R12,R13      2
